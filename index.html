@@ -11,46 +11,48 @@
 
 <body>
     <section>
-        <header>
-            <h1>dylan utsler</h1>
-            <ul class="list1">
-                <section class="li1">
-                <li> <a href="#section1">about me</a></li>
-                <li> <a href="#section2">work</a></li>
-                <li> <a href="#section3">contact me</a></li>
-              </section>
-            </ul>
+        <header id="header-1">
+            <h1><span class="inner-heading">dylan utsler</span></h1>
+            <nav>
+                <ul id="nav-links">
+                    <li> <a href="#section1">about me</a></li>
+                    <li> <a href="#section2">work</a></li>
+                    <li> <a href="#section3">contact me</a></li>
+                </ul>
+            </nav>
         </header>
     </section>
     <main>
-        <section id="section1">
-            <h2>ABOUT ME</h2>
+        <section class="section-row" id="section1">
+            <h2><span class="inner-heading">ABOUT ME</span></h2>
             <p>This is a paragraph about <strong>Dylan Utsler </strong>where you can find samples of his work</p>
-            <img src="./assets/images/View recent photos.png" alt="photo of me">
+            <img id="photo-me" src="./assets/images/View recent photos.png" alt="photo of me">
         </section>
-        <section id="section2">
-            <h2>work</h2>
-            <ul>
-                <li><img src="" alt="application 1">
+        <section class="section-row" id="section2">
+            <h2><span class="inner-heading">work</span></h2>
+            <ul class="workimg">
+                <li class="app app1">
+                    <img src="./assets/images/placeholder.gif" alt="application 1">
                     <h3>application 3</h3>
                     <p>description of application</p>
                 </li>
-                <li><img src="" alt="application 2">
+                <li class="app app2">
+                    <img src="./assets/images/placeholder.gif" alt="application 2">
                     <h3>application 2</h3>
                     <p>this is a description of application 2</p>
                 </li>
-                <li><img src="" alt="application 3">
+                <li class="app app3">
+                    <img src="./assets/images/placeholder.gif" alt="application 3">
                     <h3>application 3</h3>
                     <p>this is a description of application 3</p>
                 </li>
             </ul>
         </section>
-        <section id="section3">
-            <h2>contact me</h2>
+        <section class="footer" id="section3">
+            <h2><span class="inner-heading">contact me</span></h2>
             <ul>
-            <li>email <a href="dutsler1@gmail.com">dutsler1@gmail.com</a></li>
-            <li>phone number <strong>720-297-0078</strong></li>
-            <li>resume <strong>insert resume here</strong></li>
+                <li>email <a href="dutsler1@gmail.com">dutsler1@gmail.com</a></li>
+                <li>phone number <strong>720-297-0078</strong></li>
         </section>
     </main>
 
