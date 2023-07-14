@@ -3,7 +3,7 @@
 this is a starter portfolio page of myself that demonstrates the use of advanced CSS and HTML elements. 
 
 ## link of deployed application 
-
+https://dutsler1.github.io/portfolio/
 
 ## link of github 
 https://github.com/dutsler1/portfolio
